@@ -1,0 +1,26 @@
+# Curso 2 Variables
+    # Instalando sass
+
+        - Instalar ruby-installer2.2
+            - verificar el ruby -v
+        - instalar compass
+            - gem install compass (sass en su version de ruby, chequea la sintaxis)
+
+    # Pasando por las 3 fases del compilador
+        ## Analisis lexico
+        ## Analisis sintactico
+        ## Analisis semantico
+
+    # realizando preecompilacion
+        ## sass --watch scss/main.scss:css/style.css
+
+    # para comprobar que funciona, instalamos el live-server
+        - npm install -g live-server
+        - Linux
+        - sudo npm install -g live-server
+
+    # correr live server
+        - live-server .
+
+    # Curso 3 Patial (parchal)
+        @import "nombre del partial";
