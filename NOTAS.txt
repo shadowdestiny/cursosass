@@ -24,3 +24,10 @@
 
     # Curso 3 Patial (parchal)
         @import "nombre del partial";
+
+    # Curso 4 Mixins Parte 1
+           hsl
+           --watch mixins/scss/main.scss:mixins/css/style.css
+           live-server . --port=8089
+
+
