@@ -30,4 +30,7 @@
            --watch mixins/scss/main.scss:mixins/css/style.css
            live-server . --port=8089
 
+           sass --watch mixins/scss/main.scss:css/style.css
+
+
 

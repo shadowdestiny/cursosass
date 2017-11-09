@@ -2,7 +2,7 @@
   border-width: 0 1px $width 1px;
 }
 
-@mixin alert-variant($background, $border, $text-color) {
+@mixin alert-variant($background, $border : #efefef, $text-color) {
   background-color: $background;
   border-color: $border;
   color: $text-color;

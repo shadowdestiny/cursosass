@@ -4,7 +4,19 @@
 .alert{
   padding: 20px;
 }
-
+/*
+tambien podemos utilizar el nesting para abreviar
+.alert{
+  padding: 20px;
+  &-info{
+    @include alert-variant($alert-info-bg,$alert-info-text)
+  }
+  o ben
+  &--info{
+    @include alert-variant($alert-info-bg,$alert-info-text)
+  }
+}
+*/
 .alert-info{
   @include alert-variant($alert-info-bg,$alert-info-text)
 }
